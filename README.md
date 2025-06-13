@@ -21,4 +21,5 @@ I took the consideration when I still have some leftover ingredients from my pas
 
 ### Search recipe on Google
 Gemini AI has a new feature to apply Google search grounding within the generated items, along with the URL, so the LLM could utilize the Google search to support its answers. I implemented this so the user could search recipes directly from the app.
+
 Although using Google search directly is also okay, this is a form of practicing how to implement agentic behavior in the LLM. The drawback of this feature is, the URLs of the sources given are not always legit, sometimes the LLM gives us broken links.
