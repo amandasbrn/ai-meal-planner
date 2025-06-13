@@ -4,12 +4,12 @@ A simple, intelligent meal planning system that utilizes Generative AI from Gemi
 The idea to build this app is because I will be a university student again this year, and I will be living alone. As I am constantly confused about what food to make, along with the short amount of time to meal prep due to busy uni life, this app will surely support my lifestyle.
 
 ## 🛠️ Tech Stacks
-Python
-Streamlit for UI and deployment (with template customization) 
-Google Gemini
-Langchain for prompting, generating, and implementing the agentic feature
-Google Search grounding
-Sqlite3
+- Python
+- Streamlit for UI and deployment (with template customization) 
+- Google Gemini AI
+- Langchain for prompting, generating, and implementing the agentic feature
+- Google Search grounding
+- Sqlite3
 
 ## 👾 Application Features
 ### Build a meal plan & grocery shop list
