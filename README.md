@@ -13,7 +13,7 @@ The idea to build this app is because I will be a university student again this 
 
 ## 👾 Application Features
 ### Build a meal plan & grocery shop list
-When the user generates a meal plan, the LLM will generate x days' worth of meal plan, along with the grocery shop list to make those meals. The user can also download the grocery shop, then airdrop it to the phone (in my case, I am using an iOS environment, so it's convenient.) This brings me to the next feature.
+When the user generates a meal plan, the LLM will generate x days' worth of meal plan, along with the grocery shop list to make those meals. The user can also download the grocery shop, then airdrop it to the phone (in my case, I am using an iOS environment, so it's convenient). This brings me to the next feature.
 After the plan & grocery shop list are generated, it will be automatically stored in the database I built with sqlite3. Then, the plan and grocery list will be presented in the "Meal plan & grocery log" menu.
 
 ### Plan what's on your fridge
@@ -23,3 +23,8 @@ I took the consideration when I still have some leftover ingredients from my pas
 Gemini AI has a new feature to apply Google search grounding within the generated items, along with the URL, so the LLM could utilize the Google search to support its answers. I implemented this so the user could search recipes directly from the app.
 
 Although using Google search directly is also okay, this is a form of practicing how to implement agentic behavior in the LLM. The drawback of this feature is, the URLs of the sources given are not always legit, sometimes the LLM gives us broken links.
+
+
+## 🎯 Future Improvement
+- Using the recipes API to retrieve recipes directly from online sources
+- Add more personalization features: halal food, dietary restriction, calorie counter, ingredients substitution
